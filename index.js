@@ -9,7 +9,7 @@ const
   scrape = require('./data-scrape.js')
 
 app.get('/', (req, res) => {
-  scrape
+  scrape()
   res.send('works')
 })
 
